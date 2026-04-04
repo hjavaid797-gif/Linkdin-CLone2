@@ -37,7 +37,7 @@
 
 .form-box{
     background-color: white;
-    height: 800px ;
+    height: 700px ;
     width: 350px;
     margin-top: 20px;
     box-shadow: 4px 4px 12px 12px rgba(0, 0, 0, 0.10);
@@ -78,7 +78,7 @@
 
 .google:hover{
     background-color: #f5f5f5;
-    border-color: #999;
+    border-color: #292929;
     transform: translatey(-1px) ;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) ;
 }
@@ -105,7 +105,7 @@
 
 .microsoft:hover{
     background-color: #f5f5f5;
-    border-color: #999;
+    border-color: #292929;
     transform: translatey(-1px) ;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) ;
 }
@@ -133,7 +133,7 @@
 
 .apple:hover{
     background: #f5f5f5;
-    border-color: #999;
+    border-color: #292929;
     transform: translateY(-1px);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
@@ -236,7 +236,24 @@
     transform: translateY(-1px);
 }
 
+.sign-up{
+    height: 32px;
+    width: 100%px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:32px;
+}
 
+.sign-up a{
+    text-decoration: none;
+    color: #0073b1;
+}
 
-
+.sign-up a:hover{
+    text-decoration: underline;
+    border-radius: 50px;
+    background-color: rgba(0, 126, 252, 0.10);
+    
+}
 
